@@ -20,6 +20,12 @@
             "language": "lc3",
             "scopeName": "source.asm",
             "path": "./syntaxes/lc3.tmLanguage.json"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "lc3",
+                "path": "./snippets_lc3/snippets.json"
+            }
+        ]
     }
 }

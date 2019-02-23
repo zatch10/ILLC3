@@ -1,0 +1,148 @@
+{
+    "add":{
+        "prefix": "ADD",
+	    "body": "ADD ${1:DR}, ${2:SR1}, ${0:SR2}",
+        "description": "dest <-- source_reg_1 + source_reg_2/number"
+	 	
+     },
+     "and":{
+        "prefix": "AND",
+	    "body": "AND ${1:DR}, ${2:SR1}, ${0:SR2}",
+        "description": "dest <-- source_reg_1 + source_reg_2/number"
+	 	
+     },
+     "br":{
+        "prefix": "BR",
+	    "body": "BR${1:nzp} ${0:Label}",
+        "description": "PC <-- PC + SEXT(PCoffset9)"
+     },
+     "jmp":{
+         "prefix":"JMP",
+         "body":"JMP ${0:BaseR}",
+         "description": "PC <-- BaseR"
+     },
+     "ret":{
+        "prefix":"RET",
+        "body":"RET$0",
+        "description": "PC <-- R7"
+    },
+    "jsr":{
+        "prefix":"JSR",
+        "body":"JSR ${0:Label}",
+        "description": "PC <-- PC + SEXT(PCoffset11)"
+    },
+    "jsrr":{
+        "prefix":"JSRR",
+        "body":"JSRR ${0:BaseR}",
+        "description": "PC <-- BaseR"
+    },
+
+    "ld":{
+        "prefix":"LD",
+        "body":"LD ${1:DR}, ${0:LABEL}",
+        "description":"DR <-- MEM[PC + SEXT(PCoffset9)]"
+    },
+
+    "ldI":{
+        "prefix":"LDI",
+        "body":"LDI ${1:DR}, ${0:LABEL}",
+        "description":"DR <-- MEM[MEM[PC + SEXT(PCoffset9)]]"
+    },
+    "ldr":{
+        "prefix":"LDR",
+        "body":"LDR ${1:DR}, ${2:BaseR}, ${0:offset6}",
+        "description":"DR <-- MEM[BaseR + SEXT(offset6)]"
+    },
+    "lea":{
+        "prefix":"LEA",
+        "body":"LEA ${1:DR}, ${0:LABEL}",
+        "description":"DR <-- PC + SEXT(PCoffset9)"
+    },
+    "not":{
+        "prefix":"NOT",
+        "body":"NOT ${1:DR}, ${0:SR}",
+        "description":"DR <-- NOT(SR)"
+    },
+    "rti":{
+        "prefix":"RTI",
+        "body":"RTI $0",
+        "description":"PC, PSR <-- top two values popped off stack"
+    },
+    
+    "st":{
+        "prefix":"ST",
+        "body":"ST ${1:SR}, ${0:LABEL}",
+        "description":"MEM[PC + SEXT(PCoffset9)] <-- SR"
+    },
+
+    "sti":{
+        "prefix":"STI",
+        "body":"STI ${1:SR}, ${0:LABEL}",
+        "description":"MEM[MEM[PC + SEXT(PCoffset9)]] <-- SR"
+    },
+
+    "str":{
+        "prefix":"STR",
+        "body":"STR ${1:SR}, ${2:BaseR}, ${0:offset6}",
+        "description":"MEM[BaseR + SEXT(offset6)] <-- SR"
+    },
+    
+    "trap":{
+        "prefix":"TRAP",
+        "body":"TRAP ${0:trapvector8}",
+        "description":"PC <-- MEM[ZEXT(trapvect8)]"
+    },
+    "string":{
+        "prefix":".STRINGZ",
+        "body":".STRINGZ $0",
+        "description":"STORE NULL-TERMINATED STRING"
+
+    },
+
+    "blkw":{
+        "prefix":".BLKW",
+        "body":".BLKW $0",
+        "description":"RESERVE MEMORY SPACE"
+    },
+    "fill":{
+        "prefix":".FILL",
+        "body":".FILL $0",
+        "description":"STORE VALUE IN MEMORY"
+
+    },
+    "orig":{
+        "prefix":".ORIG",
+        "body":".ORIG x$0",
+        "description":"MEMORY ADDRESS FOR BEGINNING OF PROGRAM"
+    },
+
+    "end":{
+        "prefix":".END",
+        "body":".END$0",
+        "description":"STORE VALUE IN MEMORY"
+    },
+    "halt":{
+        "prefix":"HALT",
+        "body":"HALT$0",
+        "description":"HALT PROGRAM"
+    }
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+     
+    
+     
+    
+}
