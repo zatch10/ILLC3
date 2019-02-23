@@ -1,0 +1,25 @@
+{
+    "name": "lc3-lang",
+    "displayName": "lc3-lang",
+    "description": "syntax highlighting for lc3",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lc3",
+            "aliases": ["lc3", "lc3"],
+            "extensions": [".asm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lc3",
+            "scopeName": "source.asm",
+            "path": "./syntaxes/lc3.tmLanguage.json"
+        }]
+    }
+}

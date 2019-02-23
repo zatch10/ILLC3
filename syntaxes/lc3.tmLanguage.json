@@ -1,0 +1,70 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "lc3",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "variable.register.lc3asm",
+					"match": "\\b(ADD|add|NOT|not|AND|and)\\b"
+				},
+				{
+					"name": "keyword.control.lc3asm",
+					"match": "\\b(BR|br|BRn|brn|BRz|brz|BRp|brp|BRnz|brnz|BRnp|brnp|BRzp|brzp|BRnzp|brnzp|JMP|jmp|JSR|jsr|RET|ret|JSRR|jsrr|RTI|rti)\\b"
+				},
+				{
+					"name": "constant.numeric.hex",
+					"match": "\\b(GETC|getc|OUT|out|PUTS|puts|TRAP|trap|IN|in|HALT|halt)\\b"
+				},
+				{
+					"name": "storage.operation.datamv.lc3asm",
+					"match": "\\b(ST|st|STR|str|STI|sti|LEA|lea|LD|ld|LDR|ldr|LDI|ldi)\\b"
+				},
+				{
+					"name": "keyword.psuedo-ops.lc3asm",
+					"match": "\\b(ORIG|orig|FILL|fill|BLKW|blkw|STRINGZ|stringz|END|end)\\b"
+				},
+				{
+					"name": "entity.name.function.logimaths.lc3asm",
+					"match": "\\b(R0|r0|R1|r1|R2|r2|R3|r3|R4|r4|R5|r5|R6|r6|R7|r7)\\b"
+				},
+				{
+					"name": "comment.block.documentation",
+					"begin": ";",
+					"end": "\n"
+				},
+				{
+					"name": "support.other.lc3asm",
+					"match": "[x][A-Za-z0-9]+"
+				},
+				{
+					"name": "support.other.lc3asm",
+					"match": "[0-9]+"
+				},
+				{
+					"name": "constant.character",
+					"match": "[A-Za-z][A-Za-z0-9_]+"
+				}]
+		},
+		"strings": {
+			"name": "string.quoted.double.lc3",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.lc3",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.asm"
+}
