@@ -125,24 +125,33 @@
         "prefix":"HALT",
         "body":"HALT$0",
         "description":"HALT PROGRAM"
+    },
+
+    "out":{
+        "prefix":"OUT",
+        "body":"OUT$0",
+        "description":"PRINT CHARACTER STORED IN R0"
+    },
+    "in":{
+        "prefix":"IN",
+        "body":"IN$0",
+        "description":"ECHO INPUT CHARACTER"
+    },
+    "puts":{
+        "prefix":"PUTS",
+        "body":"PUTS$0",
+        "description":"PRINT STRING STARTING WITH ADDRESS STORED AT R0"
+    },
+
+    "getc":{
+        "prefix":"GETC",
+        "body":"GETC$0",
+        "description":"INPUT A SINGLE CHARACTER INTO R0"
+    },
+    "putsp":{
+        "prefix":"PUTSP",
+        "body":"PUTSP$0",
+        "description":"PRINT STRING STARTING WITH ADDRESS STORED AT R0"
     }
-
-
-
-
-
-
-
-    
-
-
-
-
-    
-
-
-     
-    
-     
     
 }
