@@ -1,65 +1,43 @@
-# lc3-lang README
+# ILLC3 
 
-This is the README for your extension "lc3-lang". After writing up a brief description, we recommend including the following sections.
+ILLC3 is a Visual Studio code extention that adds native support to Visual studio code for lc3 assembly. 
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+* Syntax highlighting for LC3 including differentiation between operands, registers, comments, pseudo ops, and data types
 
-For example if there is an image subfolder under your extension project workspace:
+* Auto complete support in the form of RTL statements for operands and pseudo ops  
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
+* Shortcuts implemented for various operands:
+    1. shift + enter + a     --> inserts ADD
+    2. shift + enter + d     --> inserts AND
+    3. shift + enter + b     --> inserts BR
+    4. shift + enter + q     --> inserts JMP
+    5. shift + enter + j     --> inserts JSR
+    6. shift + enter + y     --> inserts JSRR
+    7. shift + enter + right --> inserts LD
+    8. shift + enter + i     --> inserts LDI 
+    9. shift + enter + r     --> inserts LDR
+   10. shift + enter + e     --> inserts LEA
+   11. shift + enter + n     --> inserts NOT
+   12. shift + enter + left  --> inserts ST
+   13. shift + enter + t     --> inserts STI
+   14. shift + enter + =     --> inserts STR
+> Tip: The auto complete code pastes a template for registers that can be edited in succession using the Tab button <br>
+> Note: When entering shortcuts press shift + enter together, then press the necessary key
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+* For debugging lc3 simulator needs to be installed in your unix terminal (supported only with linux/mac)
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+* Debugging bash script needs to be updated
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+#### Initial release of ILLC3
 
 -----------------------------------------------------------------------------------------------------------
 
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
