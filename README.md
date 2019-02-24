@@ -46,5 +46,5 @@ Currently this repo needs to be cloned and launched from Visual Studio Code alth
 
 -----------------------------------------------------------------------------------------------------------
 
-MADE WITH <3 @ HackIllinois 2019
+Made with <3 @ HackIllinois 2019
 
