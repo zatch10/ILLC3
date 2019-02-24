@@ -1,4 +1,6 @@
 {
+        
+    
     "add":{
         "prefix": "ADD",
 	    "body": "ADD ${1:DR}, ${2:SR1}, ${0:SR2}",
@@ -43,7 +45,7 @@
         "description":"DR <-- MEM[PC + SEXT(PCoffset9)]"
     },
 
-    "ldI":{
+    "ldi":{
         "prefix":"LDI",
         "body":"LDI ${1:DR}, ${0:LABEL}",
         "description":"DR <-- MEM[MEM[PC + SEXT(PCoffset9)]]"
@@ -153,5 +155,6 @@
         "body":"PUTSP$0",
         "description":"PRINT STRING STARTING WITH ADDRESS STORED AT R0"
     }
+    
     
 }

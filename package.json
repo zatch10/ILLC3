@@ -26,6 +26,134 @@
                 "language": "lc3",
                 "path": "./snippets_lc3/snippets.json"
             }
+        ],
+        "keybindings":[
+            {
+                "key": "shift+enter a",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "add"
+                }
+            },
+            {
+                "key": "shift+enter d",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "and"
+                }
+            },
+            {
+                "key": "shift+enter b",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "br"
+                }
+            },
+            {
+                "key": "shift+enter q",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "jmp"
+                }
+            },
+            {
+                "key": "shift+enter j",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "jsr"
+                }
+            },
+            {
+                "key": "shift+enter y",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "jsrr"
+                }
+            },
+            {
+                "key": "shift+enter right",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "ld"
+                }
+            },
+            {
+                "key": "shift+enter i",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "ldi"
+                }
+            },
+            {
+                "key": "shift+enter r",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "ldr"
+                }
+            },
+            {
+                "key": "shift+enter e",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "lea"
+                }
+            },
+            {
+                "key": "shift+enter n",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "not"
+                }
+            },
+            {
+                "key": "shift+enter left",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "st"
+                }
+            },
+            {
+                "key": "shift+enter t",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "sti"
+                }
+            },
+            {
+                "key": "shift+enter =",
+                "command": "editor.action.insertSnippet",
+                "when": "editorTextFocus",
+                "args": {
+                    "langId": "lc3",
+                    "name": "str"
+                }
+            }
         ]
     }
 }
