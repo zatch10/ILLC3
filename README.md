@@ -5,9 +5,11 @@ LC3 is a popular educational assembly language used to teach the fundamentals of
 
 ## Installation
 
-* CLone this repo and unzip the .zip file.
+* **Clone** this repo and unzip the .zip file.
 * Open VSCode and navigate **File** &rarr; **Open** &rarr; **Choose the extension folder**
-* and launched (press F5) from Visual Studio Code although we expect to have it available in the VS Code Extensions marketplace very soon!
+* Press **F5** to use the extension in a simulated environment.
+* You're ready to go now!!!
+* We expect to have the extension available on the VS Code Extensions marketplace very soon!
 
 ## Features
 
