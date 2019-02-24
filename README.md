@@ -1,6 +1,11 @@
 # ILLC3 
 
 ILLC3 is a Visual Studio code extention that adds native support to Visual Studio Code for lc3 assembly. 
+LC3 is a popular educational assembly language used to teach the fundamentals of computer engineering at various universities such as UIUC, UT Austin, UPenn and many more.
+
+## Installation
+
+Currently this repo needs to be cloned and launched from Visual Studio Code although we expect to have it available in the VS Code Extensions marketplace very soon!
 
 ## Features
 
@@ -40,4 +45,6 @@ ILLC3 is a Visual Studio code extention that adds native support to Visual Studi
 #### Initial release of ILLC3
 
 -----------------------------------------------------------------------------------------------------------
+
+MADE WITH <3 @ HackIllinois 2019
 
