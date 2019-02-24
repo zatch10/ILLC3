@@ -27,7 +27,7 @@ ILLC3 is a Visual Studio code extention that adds native support to Visual Studi
 > Note: When entering shortcuts press shift + enter together, then press the necessary key
 ## Requirements
 
-* Debugging requires lc3 simulator to be installed in your unix terminal (supported only with linux/mac or a linux subsystem for windows)
+* Debugging requires lc3 simulator to be installed in your unix terminal (supported only with linux/mac or a linux subsystem for windows): https://github.com/haplesshero13/lc3tools
 
 ## Known Issues
 
