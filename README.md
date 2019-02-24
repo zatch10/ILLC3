@@ -38,6 +38,9 @@ Currently this repo needs to be cloned and launched from Visual Studio Code alth
 
 * Debugging bash script needs to be updated
 
+## Future Additions
+* Native support for debugging LC3 is in the works! If you think you can help us out, feel free to submit a PR!
+
 ## Release Notes
 
 ### 1.0.0
