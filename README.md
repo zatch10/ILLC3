@@ -5,13 +5,15 @@ LC3 is a popular educational assembly language used to teach the fundamentals of
 
 ## Installation
 
-Currently this repo needs to be cloned and launched from Visual Studio Code although we expect to have it available in the VS Code Extensions marketplace very soon!
+Currently this repo needs to be cloned and launched (press F5) from Visual Studio Code although we expect to have it available in the VS Code Extensions marketplace very soon!
 
 ## Features
 
 * Syntax highlighting for LC3 including differentiation between operands, registers, comments, pseudo-ops, and data types
 
 * Auto complete support in the form of RTL statements for operands and pseudo-ops  
+
+
 
 * Shortcuts implemented for various operands:
     1. shift + enter + a     --> inserts ADD
@@ -32,11 +34,7 @@ Currently this repo needs to be cloned and launched from Visual Studio Code alth
 > Note: When entering shortcuts press shift + enter together, then press the necessary key
 ## Requirements
 
-* Debugging requires lc3 simulator to be installed in your unix terminal (supported only with linux/mac or a linux subsystem for windows): https://github.com/haplesshero13/lc3tools
-
-## Known Issues
-
-* Debugging bash script needs to be updated
+* Debugging requires LC3 tools to be installed in your unix terminal (supported only with linux/mac or a linux subsystem for windows): https://github.com/haplesshero13/lc3tools
 
 ## Future Additions
 * Native support for debugging LC3 is in the works! If you think you can help us out, feel free to submit a PR!
