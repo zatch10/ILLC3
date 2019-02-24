@@ -1,12 +1,12 @@
 # ILLC3 
 
-ILLC3 is a Visual Studio code extention that adds native support to Visual studio code for lc3 assembly. 
+ILLC3 is a Visual Studio code extention that adds native support to Visual Studio Code for lc3 assembly. 
 
 ## Features
 
-* Syntax highlighting for LC3 including differentiation between operands, registers, comments, pseudo ops, and data types
+* Syntax highlighting for LC3 including differentiation between operands, registers, comments, pseudo-ops, and data types
 
-* Auto complete support in the form of RTL statements for operands and pseudo ops  
+* Auto complete support in the form of RTL statements for operands and pseudo-ops  
 
 * Shortcuts implemented for various operands:
     1. shift + enter + a     --> inserts ADD
@@ -27,7 +27,7 @@ ILLC3 is a Visual Studio code extention that adds native support to Visual studi
 > Note: When entering shortcuts press shift + enter together, then press the necessary key
 ## Requirements
 
-* For debugging lc3 simulator needs to be installed in your unix terminal (supported only with linux/mac)
+* Debugging requires lc3 simulator to be installed in your unix terminal (supported only with linux/mac or a linux subsystem for windows)
 
 ## Known Issues
 
