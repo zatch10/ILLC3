@@ -10,7 +10,7 @@
      "and":{
         "prefix": "AND",
 	    "body": "AND ${1:DR}, ${2:SR1}, ${0:SR2}",
-        "description": "dest <-- source_reg_1 + source_reg_2/number"
+        "description": "dest <-- source_reg_1 AND source_reg_2/number"
 	 	
      },
      "br":{
