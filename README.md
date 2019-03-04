@@ -46,7 +46,7 @@ LC3 is a popular educational assembly language used to teach the fundamentals of
 ## Release Notes
 NOW LIVE IN THE VS CODE MARKETPLACE!!!
 
-### 1.0.4
+### 1.0.5
 
 #### Initial release of ILLC3
 
