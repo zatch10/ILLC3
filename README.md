@@ -5,6 +5,10 @@ LC3 is a popular educational assembly language used to teach the fundamentals of
 
 ## Installation
 
+### Final Product Installation (via Marketplace)
+* Simply look for **ILLC3** and hit **install** and you're good to go!
+
+### Repo install with Source Code
 * **Clone** this repo and unzip the .zip file.
 * Open VSCode and navigate **File** &rarr; **Open** &rarr; **Choose the extension folder**
 * Press **F5** to use the extension in a simulated environment.
@@ -46,7 +50,7 @@ LC3 is a popular educational assembly language used to teach the fundamentals of
 ## Release Notes
 NOW LIVE IN THE VS CODE MARKETPLACE!!!
 
-### 1.0.5
+### 1.0.6
 
 #### Initial release of ILLC3
 

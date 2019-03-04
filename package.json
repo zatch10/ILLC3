@@ -10,7 +10,7 @@
     "description": "LC3 extension with features like Code Snippets, Code Highlighting and Intellisense",
     "license": "SEE LICENSE IN LICENSE.txt",
     "publisher": "ik4pupwfc52vswdvq4zuuxru5tpduuh7cur42icg2uylyvmpmd3q",    
-    "version": "1.0.5",    
+    "version": "1.0.6",    
     "repository": {
 		"type": "git",
 		"url": "https://github.com/zatch10/ILLC3.git"
