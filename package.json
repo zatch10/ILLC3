@@ -2,7 +2,7 @@
     "name": "lc3-lang",
     "displayName": "lc3-lang",
     "description": "syntax highlighting for lc3",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.31.0"
     },
