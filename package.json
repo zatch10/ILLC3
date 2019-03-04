@@ -1,10 +1,22 @@
 {
     "name": "lc3-lang",
-    "displayName": "lc3-lang",
-    "description": "syntax highlighting for lc3",
-    "version": "1.0.1",
+    "displayName": "ILLC3",
+    "icon":"illc3.png",
+    "galleryBanner": {
+		"color": "#C80000",
+		"theme": "dark"
+    },
+    "homepage": "https://github.com/zatch10/ILLC3/blob/master/README.md",
+    "description": "This extension adds support for the LC3 assembly language to VS Code with features like Code Snippets, Code Highlighting and Intellisense",
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "publisher": "ik4pupwfc52vswdvq4zuuxru5tpduuh7cur42icg2uylyvmpmd3q",    
+    "version": "1.0.4",    
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/zatch10/ILLC3.git"
+	},
     "engines": {
-        "vscode": "^1.31.0"
+        "vscode": "^1.0.0"
     },
     "categories": [
         "Programming Languages"

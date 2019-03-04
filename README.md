@@ -44,8 +44,9 @@ LC3 is a popular educational assembly language used to teach the fundamentals of
 * Native support for debugging LC3 is in the works! If you think you can help us out, feel free to submit a PR!
 
 ## Release Notes
+NOW LIVE IN THE VS CODE MARKETPLACE!!!
 
-### 1.0.0
+### 1.0.4
 
 #### Initial release of ILLC3
 

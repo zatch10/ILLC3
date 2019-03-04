@@ -3,12 +3,9 @@
 // Hover to view descriptions of existing attributes.
 // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
 {
+    
     "version": "0.2.0",
-    "publisher":"ILLC3Devs",
-    "name":"illc3",
-    "engines":"^1.8.0",
-    "icon":"/illc3.png",
-    "repository":"https://github.com/zatch10/ILLC3.git",
+   
     "configurations": [
         {
             "name": "Extension",
